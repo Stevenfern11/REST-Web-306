@@ -1,0 +1,433 @@
+/* ======== Base styles: opinionated defaults ======== */
+
+html {color: #222;font-size: 1em;line-height: 1.4;}
+::-moz-selection {background: #b3d4fc;text-shadow: none;}
+::selection {background: #b3d4fc;text-shadow: none;}
+hr {display: block;height: 1px;border: 0;border-top: 1px solid #ccc;margin: 1em 0;padding: 0;}
+audio,canvas,iframe,img,svg,video {vertical-align: middle;}
+fieldset {border: 0;margin: 0;padding: 0;}
+textarea {resize: vertical;}
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/*--- Styles that dont change ---*/
+.row{  text-align:center;
+
+}
+H1{
+    text-align: center;
+}
+H2{
+    text-align: center;
+}
+H3{
+    text-align: center;
+}
+body {
+    background-color: rgb(246, 234, 235);
+  font-family: font-family: 'Roboto Condensed', sans-serif;
+  padding-top: 70px;
+  margin: 0;
+
+
+}
+
+h1, h2, h3, h4 ,h5 h6 {
+  font-family: 'proxima-nova',sans-serif;
+    text-align: center;
+}
+
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+section {
+  margin: 20px;
+
+}
+
+.text-row {
+  padding: 1em;
+}
+
+.navbar-dark .navbar-brand {
+    color: rgb(246, 0, 14);
+    font-family: 'Caveat', cursive;
+    font-size: 2em;
+
+}
+
+.navbar-dark .navbar-brand:hover {
+    color: bisque
+}
+
+}
+
+nav {
+  color:;
+  font-weight: 600;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 600;
+  left: 0;
+
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+nav li {
+  list-style:none;
+  display: inline-block;
+  padding: 0.5em;
+  margin-top: 5px;
+
+}
+
+
+ a {
+   color: black;
+  text-decoration: none;
+
+}
+
+nav a {
+    padding: 1em;
+    letter-spacing: 1px;
+    display: inline-block;
+}
+
+
+
+header a {
+    color: white;
+
+}
+
+.brand {
+  background: #272727;;
+  font-size: 2.3em;
+  padding: 0;
+  margin: 0;
+  margin-top: 8px;
+  margin-left: 8px;
+
+}
+
+.brand li {
+  margin: 0;
+  padding: 0;
+
+}
+
+.brand a {
+  padding: 3px 10px;
+  margin: 0;
+  color: #ade5fa;
+}
+
+a:hover {
+  color: #3dc3ff;
+}
+
+.active {
+  color: aqua;
+}
+
+.navbar-right a{
+  font-family: font-family: 'Roboto Condensed', sans-serif;
+;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  color: #e0e0e0;
+}
+
+.slick-slider {
+
+  margin: 3em;
+}
+
+.slick-slider div {
+  margin-right: 20px;
+}
+
+.top-slider h2{
+  text-align: center;
+}
+
+.top-slider {
+  background: white;
+}
+
+
+
+.three-col {
+  width: 33.33%;
+  float: left;
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+
+.box {
+  width: 200px;
+  height: 200px;
+  background: green;
+  padding: 20px;
+  border: 40px solid blue;
+  box-sizing: border-box;
+
+}
+
+.dropdown-menu > li > a {
+  color: green;
+}
+
+.main-header h1 {
+  font-size: 4em;
+    padding: 3em 2em;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+}
+
+.main-header {
+  background-image: url(../img/log-jam.jpg);
+  background-attachment: fixed;
+  background-position:center;
+
+
+
+}
+
+
+
+
+.container1{
+    padding-top: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---- mobil styles ----*/
+
+@media only screen and (max-width: 768px)  {
+  body {
+    padding-top: 130px;
+  }
+
+  ul {
+
+  margin-right: 35px;
+
+}
+
+   header h1 {
+    font-size: 2em;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+
+  .brand {
+  float: left;
+}
+
+.navbar-right {
+     float: right;
+}
+
+  header h1 {
+  font-size: 4em;
+}
+
+  .col-50 {
+    padding: 1em;
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+  }
+
+}
+
+
+  /*
+
+.three-col {
+  width: 33.33%;
+  padding: 1em;
+  box-sizing: border-box;
+  display: inline-block;
+  float: left;
+}
+ */
+
+/*
+.col-50 {
+  width: 50%;
+  float: left;
+}
+
+header {
+  position: relative;
+}
+
+
+
+header h1 {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  margin-left: -88.6px;
+  right: 100px;
+  color: white;
+  font-size: 4em;
+  background: black;
+  padding: 0.2em;
+  z-index: 200;
+}
+
+ header h2 {
+  position: absolute;
+  background: #5858d9;
+  color: white;
+  top: 29%;
+  left: 45%;
+  margin-left: -88.6px;
+  right: 100px;
+}
+
+
+*/
+
+
+footer {
+  background: #7ca1af;
+  padding: 4em;
+}
+
+footer p {
+  text-align: center;
+  color: white;
+  font-family: 'proxima-nova'
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap; /* 1 */
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+    white-space: inherit;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
